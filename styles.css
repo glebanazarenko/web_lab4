@@ -1,0 +1,48 @@
+.body{
+    background-color: aqua;
+}
+
+.top_line{
+    left: 0%;
+    height: 0%;
+    background: rgb(39, 39, 39);
+
+    transform: skew(0deg);
+}
+
+.text{
+    position: absolute;
+    font-family: Comfortaa;
+    font-weight: bold;
+    text-align: left;
+    text-decoration: none;
+    font-size: 20px;
+    word-spacing: 8px;
+    padding: 10px;
+    color: rgb(29, 189, 233);
+    width: 20%;
+    height: 15%;
+    
+}
+
+.head_title{
+    position: fixed;
+    z-index: 1000;
+}
+
+.text_up{
+    position: absolute;
+    font-family: Comfortaa;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    font-size: 36px;
+    word-spacing: 8px;
+    padding: 10px;
+    color: rgb(29, 189, 233);
+    
+    width: 20%;
+    height: 15%;
+    background: rgb(39, 39, 39);
+    
+}
